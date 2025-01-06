@@ -1,32 +1,31 @@
+body {
+    margin: 0; /* Убираем стандартные отступы браузера */
+    display: flex; /* Используем Flexbox для центрирования содержимого */
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center; /* Вертикальное выравнивание */
+    height: 100vh; /* Высота страницы (100% от высоты окна браузера) */
+    background-color: #f0f0f0; /* Фон для улучшения визуального эффекта */
+    font-family: Arial, sans-serif;
+}
+
 .profile-card {
     width: 300px;
-    margin: 20px auto;
     padding: 20px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-image {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 50%; /* Делает изображение кругом */
     object-fit: cover;
-    margin-bottom: 15px;
-}
-
-.profile-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.profile-hobby {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
+    margin-bottom: 15px; /* Отступ снизу */
+    display: block; /* Убедитесь, что изображение ведет себя как блочный элемент */
 }
