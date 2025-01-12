@@ -1,11 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+// импорт css из отдельного файла
+import './App.css'
+// здесь происходит импорт компонента для дальнейшего использования
+import App from './App.jsx'
 
-import Homework01 from './homeworks/homework01/Homework01.jsx'
-
+// в этом файле мы находим div с id root и добавляем в него код
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Homework01/>
+    {/* здесь происходит вызов компонента App с версткой */}
+    <App />
   </StrictMode>,
 )
