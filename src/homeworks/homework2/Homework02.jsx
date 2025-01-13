@@ -1,6 +1,6 @@
 
 import React from "react";
-import ProfileCard from "./components/ProfileCard";
+import ProfileCard from "./homework2/ProfileCard";
 
 
 const Homework02 = () => {
