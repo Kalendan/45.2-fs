@@ -1,16 +1,14 @@
-
 // import React from "react";
-import './App.css';
+import "./App.css";
+import { Homework04 } from "./homeworks/Homework4/Homework04";
 // import Homework03 from "./homework3/Homework03";
-import Homework02 from "../homeworks/homework2/Homework02";
+
 function App() {
   return (
     <div>
-     
       {/* '<Homework03/> */}
-      <Homework02/>
+      <Homework04 />
     </div>
   );
 }
 export default App;
-
